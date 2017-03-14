@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const albumSchema = new Schema ({
+const AlbumSchema = new Schema ({
   title: String,
   date: Date,
   copiesSold: Number,
@@ -10,4 +10,4 @@ const albumSchema = new Schema ({
   revenue: Number
 });
 
-module.exports = albumSchema;
+module.exports = AlbumSchema;
